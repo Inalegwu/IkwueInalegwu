@@ -1,8 +1,6 @@
 <script lang="ts">
     import "../app.css";
 	import Blob from "../components/Blob.svelte";
-    import {Hand} from "lucide-svelte"
-
 </script>
 
 <main>
@@ -17,7 +15,7 @@
                 <li><a href="/">Home</a></li>
                  <li><a href="/works">Works</a></li>
                  <li><a href="/blog">Blog</a></li>
-                  <li><a href="/contact">Contact Me</a></li>
+                 <li><a href="/contact">Contact Me</a></li>
             </ul>
         </div>
         <slot/>
@@ -49,8 +47,9 @@
         padding: 10px;
         background: transparent;
         backdrop-filter: blur(10px);
-        border: 0.1px solid #d3d3d3a6;
+        border: 0.1px solid #d3d3d367;
         border-radius: 5px;
+        font-weight: bold;
     }
     .navlinks{
         display: flex;

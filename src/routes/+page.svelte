@@ -1,18 +1,8 @@
-<script lang="ts">
-	import Blob from "../components/Blob.svelte";
-
-    let translation=0;
-
-    function handleMouseMove(e:any){
-        console.log(e)
-        translation=e.clientX;
-    }
-
-</script>
 <div class="viewbox">
     <div class="contentbox">
         <h1>Ikwue Inalegwu</h1>
-    <p>FullStack Developer</p>
+        <p>Fullstack Developer</p>
+        <p class="quip">Novel isn't it ? another Fullstack Dev</p>
     </div>
 </div>
 
@@ -39,5 +29,10 @@
     }
     .contentbox>p{
         font-size: 20px;
+    }
+    .quip{
+        font-weight: bold;
+        font-size: 15px !important;
+        color: #383838a8;
     }
 </style>
