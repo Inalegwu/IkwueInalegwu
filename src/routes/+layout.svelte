@@ -1,7 +1,7 @@
 <script lang="ts">
     import "../app.css";
 	import Blob from "../components/Blob.svelte";
-    import {Sun} from "lucide-svelte"
+    import {Hand} from "lucide-svelte"
 
 </script>
 
@@ -12,7 +12,8 @@
     <Blob/>
     <div class="body">
         <div class="navbar">
-            <span class="infobox">Hit Ctrl To See A Cool Effect</span>
+            <span class="infobox">
+                <Hand/>Hit Ctrl To See A Cool Effect</span>
             <ul class="navlinks">
                 <li><a href="/">Home</a></li>
                  <li><a href="/works">Works</a></li>
