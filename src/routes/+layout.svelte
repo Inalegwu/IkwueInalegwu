@@ -12,8 +12,7 @@
     <Blob/>
     <div class="body">
         <div class="navbar">
-            <span class="infobox">
-                <Hand/>Hit Ctrl To See A Cool Effect</span>
+            <span class="infobox">Hit Ctrl To See A Cool Effect</span>
             <ul class="navlinks">
                 <li><a href="/">Home</a></li>
                  <li><a href="/works">Works</a></li>
