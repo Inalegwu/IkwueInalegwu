@@ -4,7 +4,7 @@
 <div class="contactbox">
     <h1>Feel Free To Stalk Me , Just Don't Do Anything Weird</h1>
     <div class="medialinks">
-        <a href="https://instagram.com/CasuallyProperPotraits" target="_blank">
+        <a href="https://instagram.com/CasuallyProperPortraits" target="_blank">
             <Instagram size={20}/>
         </a>
          <a href="https://github.com/Inalegwu" target="_blank">
