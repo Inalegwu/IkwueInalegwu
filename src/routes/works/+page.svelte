@@ -30,10 +30,10 @@
                  <h1>{work.title}</h1>
                  <p>{work.description}</p>
                  <div>
-                    <a href={work.gitHubLink}>
+                    <a href={work.gitHubLink} target="_blank">
                         <Github size={20}/>
                     </a>
-                    <a href={work.websiteLink}>
+                    <a href={work.websiteLink} target="_blank">
                         <Globe size={20}/>
                     </a>
                  </div>

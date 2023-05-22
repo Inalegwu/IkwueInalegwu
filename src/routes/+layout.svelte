@@ -72,6 +72,9 @@
         .infobox{
             font-size: 8px;
         }
+        .body{
+            backdrop-filter: blur(400px);
+        }
         .navlinks{
             width: 50%;
             font-size: 10px;
